@@ -11,7 +11,7 @@ function App() {
   async function handleSubmit(e) {
     e.preventDefault();
     try {
-      const response = await axios.post("https://nodemailer-xltk.onrender.com/sendEmail", {
+      const response = await axios.post("https://app-node-caau.onrender.com", {
         name,
         email,
         message,
