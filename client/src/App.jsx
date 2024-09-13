@@ -11,7 +11,7 @@ function App() {
   async function handleSubmit(e) {
     e.preventDefault();
     try {
-      const response = await axios.post("https://app-node-caau.onrender.com", {
+      const response = await axios.post("https://app-node-caau.onrender.com/sendEmail", {
         name,
         email,
         message,
